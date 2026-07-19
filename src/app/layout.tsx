@@ -22,19 +22,41 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
+
   title: {
-    default: DATA.name,
-    template: `%s | ${DATA.name}`,
+    default: "alonearif inc - portfolio",
+    template: "%s | alonearif inc - portfolio",
   },
-  description: DATA.description,
+
+  description:
+    "At the beginning of 2021, I started to explore all sorts of exciting things including digital art, coding, web development, entrepreneurship, music, video editing, motion graphics and more.",
+
   openGraph: {
-    title: `${DATA.name}`,
-    description: DATA.description,
+    title: "alonearif inc - portfolio",
+    description:
+      "At the beginning of 2021, I started to explore all sorts of exciting things including digital art, coding, web development, entrepreneurship, music, video editing, motion graphics and more.",
     url: DATA.url,
-    siteName: `${DATA.name}`,
+    siteName: "alonearif inc - portfolio",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/alonearif.jpeg", // public/alonearif.jpeg
+        width: 1200,
+        height: 630,
+        alt: "alonearif inc - portfolio",
+      },
+    ],
   },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "alonearif inc - portfolio",
+    description:
+      "At the beginning of 2021, I started to explore all sorts of exciting things including digital art, coding, web development, entrepreneurship, music, video editing, motion graphics and more.",
+    images: ["/alonearif.jpeg"],
+  },
+
   robots: {
     index: true,
     follow: true,
@@ -46,10 +68,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  twitter: {
-    title: `${DATA.name}`,
-    card: "summary_large_image",
-  },
+
   verification: {
     google: "",
     yandex: "",
@@ -67,7 +86,7 @@ export default function RootLayout({
         className={cn(
           "min-h-screen bg-background font-sans antialiased relative",
           geist.variable,
-          geistMono.variable
+          geistMono.variable,
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="light">
@@ -79,7 +98,8 @@ export default function RootLayout({
                 gridGap={2}
                 style={{
                   maskImage: "linear-gradient(to bottom, black, transparent)",
-                  WebkitMaskImage: "linear-gradient(to bottom, black, transparent)",
+                  WebkitMaskImage:
+                    "linear-gradient(to bottom, black, transparent)",
                 }}
               />
             </div>
