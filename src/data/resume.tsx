@@ -13,9 +13,9 @@ export const DATA = {
   location: "Rajshahi, Bangladesh",
   locationLink: "https://www.google.com/maps/place/rajshahi",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people.",
+    "18yo self-taught creator.",
   summary:
-    "At the beinning of 2021, I started to explore all sorts of exciting things including digital art, coding, web development, entrepreneurship, music, video editing, motion graphics and more. I have a passion for creating and building things that make a difference in people's lives Hit me up on [Instagram](https://www.instagram.com/arf.env).",
+    "At the beinning of 2021, I started to explore all sorts of exciting things including digital-art, abstract-art, poster-manipulation, web-development, bot-development, full-stack development, lo-fi music, video-editing, motion-graphics and more. In 2024-25, I mainly focused on academics. From 2025, entrepreneurship has been a major part. I have a passion for creating and building things that make a difference in people's lives. Very active on [Instagram](https://www.instagram.com/arf.env).",
   avatarUrl: "/founder.jpg",
   skills: [
     { name: "React", icon: ReactLight },
@@ -192,7 +192,7 @@ export const DATA = {
       ],
     },
     {
-      title: "MatrixOMR",
+      title: "OMR Scanner",
       dates: "2026",
       location: "Remote",
       description:
@@ -214,6 +214,24 @@ export const DATA = {
         "Full-stack SaaS platform to excute everything a school could ever need.",
       image: "/cam.svg",
       links: [],
+    },
+      {
+      title: "Bidda",
+      dates: "Since 2026",
+      location: "Remote",
+      description:
+        "Startup MCQ practice platform for medical students.",
+      image: "/alonearif.jpeg",
+      links: [
+
+       
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://bidda.reun.org",
+        },
+       
+      ],
     },
     {
       title: "Edtech SaaS",
@@ -264,11 +282,6 @@ export const DATA = {
           href: "https://riponuniquemath.com",
         },
         {
-          title: "Bangla Koshghor",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://banglakoshghor.com",
-        },
-        {
           title: "Bimal Chemistry",
           icon: <Icons.globe className="h-4 w-4" />,
           href: "https://bimalchemistry.com",
@@ -309,6 +322,88 @@ export const DATA = {
           icon: <Icons.globe className="h-4 w-4" />,
           href: "https://dsc.gg/thiccboi",
         },
+      ],
+    },
+     {
+      title: "NGDC Results",
+      dates: "2025 - 2027",
+      location: "Rajshahi",
+      description:
+        "Just for convinience, I built it to search students by their name. Also comes with leaderboard and filters.",
+      image: "/govbd.webp",
+      links: [
+        {
+          title: "Open Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ALONEARIF25/ngdc-results",
+        },
+       
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://alonearif25.github.io/ngdc-results/",
+        },
+       
+      ],
+    },
+     {
+      title: "APC Exploit",
+      dates: "February 2026",
+      location: "Rajshahi",
+      description:
+        "While randomly testing security, I found extreme vulnerability in APC - Apurbo Physics Care's student portal. More than 2,000 student data were exposed with their face and phone numbers. Data is kept safe, request for more information.",
+      image: "/lime.svg",
+      links: [
+      
+       
+      ],
+    },
+     {
+      title: "Instagram Data Parser",
+      dates: "2025",
+      location: "Remote",
+      description:
+        "Just for convinience, using instagrams JSON export, it shows valuable data points and analysis, also features merged JSON results..",
+      image: "/lime.svg",
+      links: [
+        {
+          title: "Open Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ALONEARIF25/instagram-data-parser",
+        },
+       
+      
+      ],
+    },
+    {
+      title: "Misc",
+      dates: "All time",
+      location: "Remote",
+      description:
+        "Every now and then I build small tools and scripts to make my life easier. Some of them are open source, some are not.",
+      image: "/lime.svg",
+      links: [
+        {
+          title: "Discordmoji",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ALONEARIF25/discordmoji",
+        },
+         {
+          title: "DiscordImageBase",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ALONEARIF25/discordimagebase",
+        },
+        {
+          title: "ColorExtractor",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ALONEARIF25/color_extractor",
+        },
+         {
+          title: "ChinnoSync",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ALONEARIF25/",
+        },
+      
       ],
     },
   ],
