@@ -13,7 +13,7 @@ export const DATA = {
   location: "Rajshahi, Bangladesh",
   locationLink: "https://www.google.com/maps/place/rajshahi",
   description:
-    "18yo self-taught creator.",
+    "19yo self-taught creator.",
   summary:
     "At the beinning of 2021, I started to explore all sorts of exciting things including digital-art, abstract-art, poster-manipulation, web-development, bot-development, full-stack development, lo-fi music, video-editing, motion-graphics and more. In 2024-25, I mainly focused on academics. From 2025, entrepreneurship has been a major part. I have a passion for creating and building things that make a difference in people's lives. Very active on [Instagram](https://www.instagram.com/arf.env).",
   avatarUrl: "/founder.jpg",
